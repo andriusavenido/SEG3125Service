@@ -1,0 +1,13 @@
+--text: #141619;
+--background: #f0f1fa;
+--primary: #0a21c0;
+--secondary: #2c2e3a;
+--accent: #050a44;
+
+SECOND
+
+--text: #FFFFFF;
+--background: #222629;
+--primary: #86c232;
+--secondary: #474b4f;
+--accent: #61892f;
