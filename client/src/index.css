@@ -1,0 +1,35 @@
+
+:root {
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --text: #FFFFFF;
+  --background: #222629;
+  --backgroundaccent: #293137;
+  --primary: #86c232;
+  --secondary: #474b4f;
+  --accent: #61892f;
+}
+body{
+  background-color: #222629;
+}
+
+.nav-color{
+  background-color: #293137;
+}
+
+.nav-link:hover{
+  color: var(--primary) !important;
+}
+
+.btn.no-top-radius {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+
