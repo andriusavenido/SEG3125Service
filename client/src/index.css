@@ -2,7 +2,7 @@
 :root {
 
   color-scheme: light dark;
-
+  color: var(--text);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -32,4 +32,18 @@ body{
   border-top-right-radius: 0 !important;
 }
 
+.caro-img{
+  max-height: 50vh;
+  object-fit: cover;
+  width: 100%;
+}
 
+.caption-bottom-right {
+  right: 0 !important;
+  left: auto !important;
+  bottom: 0 !important;
+  text-align: right !important;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  max-width: 50%;
+}

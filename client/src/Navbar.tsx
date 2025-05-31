@@ -4,7 +4,7 @@ const Navbar: React.FC= () => {
     return ( 
     <div className="navbar text-light m-0 p-0">
         <div className="container-fluid p-3 nav-color ">
-            <div className="border-bottom border-primary">
+            <div className="border-bottom border-primary border-3">
                 <h2 className="fw-bold">Rideau Repairs Phone & Electronics</h2>
             </div>
             <div>
@@ -22,7 +22,7 @@ const Navbar: React.FC= () => {
                         <Link to="/guides" className="nav-link text-light fs-6 fs-md-5 fs-lg-4 mx-3">Repair Guides</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/information" className="nav-link text-light fs-6 fs-md-5 fs-lg-4 mx-3">Information</Link>
+                        <Link to="/information" className="nav-link text-light fs-6 fs-md-5 fs-lg-4 mx-3">About Us</Link>
                     </li>
                 </ul>
             </div>
