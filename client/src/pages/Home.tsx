@@ -10,31 +10,32 @@ const Home: React.FC = () => {
             <div className="container text-center p-4 rounded">
                 <h1 className='border-primary border-bottom border-3 mx-3 fw-bold display-4'>Rideau Repairs Phones & Electronics</h1>
                 <p className="lead">123 Rideau Street, Ottawa Ontario</p>
+                <p className=' fw-light fs-5'>We provide quick, professional repair services for phones, tablets, and other electronic devices. Our highly experienced technicians are ready to fix cracked screens, battery issues, software glitches, and more — all with top-quality parts and service you can count on. For your convenience, we also offer home technician appointments, so you can get expert help without leaving your home. Fast. Friendly. Hassle-free.</p>
                 <div className="row m-4 p-4 align-items-center">
                     <div className='col-6'>
                         <div className="card border-0 bg-secondary text-light">
                             <div className="card-body py-4 text-start">
-                                <h4 className="card-title fw-bold">Repair Services</h4>
-                                <p className=" card-subtitle">Hello</p>
-                                <Link to="/services" className="btn btn-primary shadow-lg">View Guides</Link>
+                                <h4 className="card-title fw-bold">iPhone and Android Phone Repairs</h4>
+                                <p className=" card-subtitle my-4">Our main expertise is phone repairs. We offer competitive and fair pricing. *Pricing includes service fee and spare parts. Book a repair appointment or contact us now for exact quotes!</p>
+                                <h5>Average Cost for iPhone/Android Phone Repairs: <span className='text-primary'>$65</span></h5>
+
+                                <Link to="/services" className="btn btn-primary shadow-lg mt-2">View All of our Repair Services</Link>
                             </div>
                         </div>
                     </div>
                     <div className='col-3'>
                         <div className="card border-0 bg-secondary text-light">
                             <div className="card-body py-4 text-start">
-                                <h4 className="card-title fw-bold">Repair Services</h4>
-                                <p className=" card-subtitle">Hello</p>
-                                <Link to="/services" className="btn btn-primary shadow-lg">View Guides</Link>
+                                <h4 className="card-title fw-bold">PC & iMax Repairs</h4>
+                                <h5>Average Cost for PC/iMac Repairs: <span className='text-primary'>$100 base + Spare Parts</span></h5>
                             </div>
                         </div>
                     </div>
                     <div className='col-3'>
                         <div className="card border-0 bg-secondary text-light">
                             <div className="card-body py-4 text-start">
-                                <h4 className="card-title fw-bold">Repair Services</h4>
-                                <p className=" card-subtitle">Hello</p>
-                                <Link to="/services" className="btn btn-primary shadow-lg">View Guides</Link>
+                                <h4 className="card-title fw-bold">Other Electronics</h4>
+                                <h5>Average Cost for Other Electronics Repairs: <span className='text-primary'>Varies on device, Contact Us!</span></h5>
                             </div>
                         </div>
                     </div>
