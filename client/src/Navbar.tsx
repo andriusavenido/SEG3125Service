@@ -1,6 +1,17 @@
 import { Link } from "react-router";
+import { useState, useEffect, useContext } from 'react';
+import { CartContext } from './context/CartContext';
 
 const Navbar: React.FC= () => {
+
+    const { cartItems } = useContext(CartContext);
+    const [cartCount, setCartCount] = useState(0);
+
+    useEffect(() => {
+        // Update cart count whenever cartItems changes
+        setCartCount(cartItems.length);
+    }, [cartItems]);
+
     return ( 
     <div className="navbar text-light m-0 p-0 fixed-top">
         <div className="container-fluid p-3 nav-color ">
@@ -33,7 +44,7 @@ const Navbar: React.FC= () => {
                       <Link to="/contact" className="btn btn-primary mx-2 no-top-radius shadow-lg"><i className="bi bi-telephone-fill"></i> Contact Us</Link>
                 </div>
               
-                <Link to="/cart" className="btn btn-primary mx-2 no-top-radius shadow-lg"><i className="bi bi-cart-fill"></i> View Cart</Link>
+                <Link to="/cart" className="btn btn-primary mx-2 no-top-radius shadow-lg"><i className="bi bi-cart-fill"></i>View Cart<span className="fw-bold">{cartCount> 0 ? ', '+cartCount + ' item(s)':''}</span></Link>
             </div>
         </div>
     </div> 
