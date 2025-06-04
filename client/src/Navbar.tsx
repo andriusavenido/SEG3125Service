@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 const Navbar: React.FC= () => {
     return ( 
-    <div className="navbar text-light m-0 p-0">
+    <div className="navbar text-light m-0 p-0 fixed-top">
         <div className="container-fluid p-3 nav-color ">
             <div className="border-bottom border-primary border-3">
                 <h2 className="fw-bold">Rideau Repairs Phone & Electronics</h2>
@@ -27,7 +27,7 @@ const Navbar: React.FC= () => {
                 </ul>
             </div>
         </div>
-         <div className="container-fluid justify-content-end bg-dark">
+         <div className="container-fluid justify-content-end bg-transparent">
             <div className="d-flex flex-row">
                 <div>
                       <Link to="/contact" className="btn btn-primary mx-2 no-top-radius shadow-lg"><i className="bi bi-telephone-fill"></i> Contact Us</Link>

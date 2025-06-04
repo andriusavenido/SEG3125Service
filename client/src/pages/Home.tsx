@@ -24,9 +24,9 @@ const Home: React.FC = () => {
                         </div>
                     </div>
                     <div className='col-3'>
-                        <div className="card border-0 bg-secondary text-light">
+                        <div className="card border-0 bg-secondary text-light ">
                             <div className="card-body py-4 text-start">
-                                <h4 className="card-title fw-bold">PC & iMax Repairs</h4>
+                                <h4 className="card-title fw-bold">PC & iMac Repairs</h4>
                                 <h5>Average Cost for PC/iMac Repairs: <span className='text-primary'>$100 base + Spare Parts</span></h5>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ const Home: React.FC = () => {
 
 const HeroCarousel: React.FC = () => {
     return (
-        <div id="heroCarousel" className="carousel slide carousel" data-bs-ride="carousel">
+        <div id="heroCarousel" className="carousel slide carousel mt-5" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={phonerepairimg} className="d-block caro-img opacity-50" alt="Phone Repair" />

@@ -1,0 +1,110 @@
+[
+    {
+        "title": "Spare CPU",
+        "price": 45.99,
+        "description": "A spare CPU for your computer, compatible with specific motherboards.",
+        "img": ""
+    },
+    {
+        "title": "iPhone 11 Screen Replacement",
+        "price": 79.99,
+        "description": "High-quality LCD and digitizer assembly for iPhone 11.",
+        "img": ""
+    },
+    {
+        "title": "Samsung Galaxy S10 Battery",
+        "price": 32.50,
+        "description": "OEM replacement battery compatible with Samsung Galaxy S10.",
+        "img": ""
+    },
+    {
+        "title": "USB-C Charging Port - Pixel 5",
+        "price": 15.00,
+        "description": "Replacement charging port module for Google Pixel 5.",
+        "img": ""
+    },
+    {
+        "title": "iPad 7th Gen Digitizer",
+        "price": 39.99,
+        "description": "Touch screen digitizer panel for iPad 7th generation models.",
+        "img": ""
+    },
+    {
+        "title": "iPhone XR Rear Camera Module",
+        "price": 49.99,
+        "description": "High-resolution rear camera replacement for iPhone XR.",
+        "img": ""
+    },
+    {
+        "title": "Laptop Fan - Dell Inspiron",
+        "price": 24.95,
+        "description": "Internal cooling fan for Dell Inspiron series laptops.",
+        "img": ""
+    },
+    {
+        "title": "Microphone Flex Cable - iPhone 8",
+        "price": 12.99,
+        "description": "Microphone and lightning flex cable replacement for iPhone 8.",
+        "img": ""
+    },
+    {
+        "title": "LCD Display - Huawei P30",
+        "price": 59.99,
+        "description": "Full display assembly including LCD and digitizer for Huawei P30.",
+        "img": ""
+    },
+    {
+        "title": "SIM Card Tray - Samsung Note 10",
+        "price": 6.99,
+        "description": "Replacement SIM card tray compatible with Samsung Note 10.",
+        "img": ""
+    },
+     {
+        "title": "Laptop Fan - Dell Inspiron",
+        "price": 24.95,
+        "description": "Internal cooling fan for Dell Inspiron series laptops.",
+        "img": ""
+    },
+    {
+        "title": "Microphone Flex Cable - iPhone 8",
+        "price": 12.99,
+        "description": "Microphone and lightning flex cable replacement for iPhone 8.",
+        "img": ""
+    },
+    {
+        "title": "LCD Display - Huawei P30",
+        "price": 59.99,
+        "description": "Full display assembly including LCD and digitizer for Huawei P30.",
+        "img": ""
+    },
+    {
+        "title": "SIM Card Tray - Samsung Note 10",
+        "price": 6.99,
+        "description": "Replacement SIM card tray compatible with Samsung Note 10.",
+        "img": ""
+    },
+     {
+        "title": "Laptop Fan - Dell Inspiron",
+        "price": 24.95,
+        "description": "Internal cooling fan for Dell Inspiron series laptops.",
+        "img": ""
+    },
+    {
+        "title": "Microphone Flex Cable - iPhone 8",
+        "price": 12.99,
+        "description": "Microphone and lightning flex cable replacement for iPhone 8.",
+        "img": ""
+    },
+    {
+        "title": "LCD Display - Huawei P30",
+        "price": 59.99,
+        "description": "Full display assembly including LCD and digitizer for Huawei P30.",
+        "img": ""
+    },
+    {
+        "title": "SIM Card Tray - Samsung Note 10",
+        "price": 6.99,
+        "description": "Replacement SIM card tray compatible with Samsung Note 10.",
+        "img": ""
+    }
+]
