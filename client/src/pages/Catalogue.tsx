@@ -124,7 +124,7 @@ const CatalogueItem: React.FC<CatalogueItemProps> = ({ title, description, price
                 <div className="flex-grow-1 mx-5">
                     <p className="card-text mb-1 text-end mr-5 fw-light">{description}</p>
                 </div>
-                <button className="btn btn-primary" onClick={() => addToCart({title, description, price, img})}>Add to Cart</button>
+                <button className="btn btn-info" onClick={() => addToCart({title, description, price, img})}>Add to Cart</button>
             </div>
         </div>
     );

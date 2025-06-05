@@ -35,7 +35,14 @@ export const CartProvider: React.FC<CartProviderProps> = ({children}) => {
     };
 
     const removeFromCart = (item: CatalogueItemProps) => {
-        setCartItems(prevItems => prevItems.filter(cartItem => cartItem.title !== item.title));
+        setCartItems(prevItems => {
+        const index = prevItems.findIndex(cartItem => cartItem.title === item.title);
+        if (index === -1) return prevItems;
+
+        const newItems = [...prevItems];
+        newItems.splice(index, 1); // Remove only the first match
+        return newItems;
+    });
     };
 
     const totalPrice = cartItems.reduce((sum, item) => sum + item.price, 0);
