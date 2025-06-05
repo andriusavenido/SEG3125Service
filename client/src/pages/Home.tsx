@@ -53,7 +53,7 @@ const HeroCarousel: React.FC = () => {
                     <img src={phonerepairimg} className="d-block caro-img opacity-50" alt="Phone Repair" />
                     <div className="carousel-caption d-none d-md-block ">
                         <h3 className='fw-bold'>Over a decade of providing repair services to locals. Highly trained and experienced experts. Thousands of happy customers.</h3>
-                        <Link to="/appointment" className="btn btn-primary mx-2 shadow-lg">Book an Appointment</Link>
+                        <Link to="/book" className="btn btn-primary mx-2 shadow-lg">Book an Appointment</Link>
                     </div>
                 </div>
 

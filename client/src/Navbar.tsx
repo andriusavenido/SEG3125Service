@@ -40,10 +40,8 @@ const Navbar: React.FC= () => {
         </div>
          <div className="container-fluid justify-content-end bg-transparent">
             <div className="d-flex flex-row">
-                <div>
-                      <Link to="/contact" className="btn btn-primary mx-2 no-top-radius shadow-lg"><i className="bi bi-telephone-fill"></i> Contact Us</Link>
-                </div>
-              
+                <Link to="/book" className="btn btn-primary mx-2 no-top-radius shadow-lg"><i className="bi bi-book-half"></i> Book Appointment</Link>
+                <Link to="/contact" className="btn btn-primary mx-2 no-top-radius shadow-lg"><i className="bi bi-telephone-fill"></i> Contact Us</Link>              
                 <Link to="/cart" className="btn btn-primary mx-2 no-top-radius shadow-lg"><i className="bi bi-cart-fill"></i>View Cart<span className="fw-bold">{cartCount> 0 ? ', '+cartCount + ' item(s)':''}</span></Link>
             </div>
         </div>

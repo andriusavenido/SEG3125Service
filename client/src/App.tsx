@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Home from './pages/Home'
 import Catalogue from './pages/Catalogue';
 import Cart from './pages/Cart';
+import Booking from './pages/Booking';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Route path="/cart" element={<Cart/>} />
       <Route path="/catalogue" element={<Catalogue/>} />
       <Route path="/guides" element={<div> guides</div>} />
-      <Route path="/appointment" element={<div> guides</div>} />
+      <Route path="/book" element={<Booking/>} />
       <Route path="*" element={<div>404 Not Found. Reload Page.</div>} />
     </Routes>
     <footer className='mx-auto text-center my-5'> Rideau Repairs Phone & Electronics. Site created by Andrius Avenido. </footer>
