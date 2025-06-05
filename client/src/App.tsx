@@ -6,7 +6,25 @@ import Cart from './pages/Cart';
 import Booking from './pages/Booking';
 
 function App() {
-  return (
+  return (<>
+  
+    <div
+      className="offcanvas offcanvas-bottom "
+      tabIndex={-1}
+      id="contactOffcanvas"
+      aria-labelledby="contactOffcanvasLabel"
+      style={{ height: '15vh' }}
+    >
+      <div className="offcanvas-header nav-color">
+        <h3 className="offcanvas-title nav-color text-light fw-bold" id="contactOffcanvasLabel ">Contact Us</h3>
+        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div className="offcanvas-body nav-color text-white">
+        <h4>Phone: <span className='text-primary'>+1 (123) 456-7890</span></h4>
+        <h4>Email: <span className='text-primary'>rideaurepairs@gmail.com</span></h4>
+      </div>
+    </div>
+    
     <BrowserRouter>
     <Navbar />
     <div className="pages mt-5 bg-dark p-4 min-vh-100 text-light">
@@ -23,7 +41,7 @@ function App() {
     </Routes>
     <footer className='mx-auto text-center my-5'> Rideau Repairs Phone & Electronics. Site created by Andrius Avenido. </footer>
     </div>
-    </BrowserRouter>
+    </BrowserRouter></>
   )
 }
 

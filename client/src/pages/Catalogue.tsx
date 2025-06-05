@@ -49,9 +49,9 @@ const Catalogue: React.FC = () => {
             <div className="d-flex flex-row align-items-center bg-primary mx-5 p-3 rounded-2 text-dark">
                 <h4 className='mx-2 mb-0'>Parts Catalogue</h4>
                 <label htmlFor="" className="mx-2"><i className="bi bi-search"></i> Search</label>
-                <input type="text" className="mx-2 w-25 bg-secondary text-light rounded-2" placeholder='Search by name...' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
+                <input type="text" className="mx-2 w-25 bg-secondary text-light rounded-2 border-0 p-1" placeholder='Search by name...' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
                 <select
-                    className="form-select mx-2 w-auto bg-secondary text-light"
+                    className="form-select mx-2 w-auto bg-secondary text-light border-0"
                     value={sortAlpha}
                     onChange={(e) => setSortAlpha(e.target.value as 'az' | 'za' | '')}
                 >
@@ -61,7 +61,7 @@ const Catalogue: React.FC = () => {
                 </select>
 
                 <select
-                    className="form-select mx-2 w-auto bg-secondary text-light"
+                    className="form-select mx-2 w-auto bg-secondary text-light border-0"
                     value={sortPrice}
                     onChange={(e) => setSortPrice(e.target.value as 'asc' | 'desc' | '')}
                 >

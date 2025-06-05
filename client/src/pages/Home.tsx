@@ -47,9 +47,9 @@ const Home: React.FC = () => {
 
 const HeroCarousel: React.FC = () => {
     return (
-        <div id="heroCarousel" className="carousel slide carousel mt-5" data-bs-ride="carousel">
+        <div id="heroCarousel" className="carousel slide carousel mt-5 " data-bs-ride="carousel">
             <div className="carousel-inner">
-                <div className="carousel-item active">
+                <div className="carousel-item active rounded-2">
                     <img src={phonerepairimg} className="d-block caro-img opacity-50" alt="Phone Repair" />
                     <div className="carousel-caption d-none d-md-block ">
                         <h3 className='fw-bold'>Over a decade of providing repair services to locals. Highly trained and experienced experts. Thousands of happy customers.</h3>
@@ -57,7 +57,7 @@ const HeroCarousel: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="carousel-item ">
+                <div className="carousel-item rounded-2">
                     <img src={parts} className="d-block w-100 caro-img opacity-50 " alt="Parts" />
                     <div className="carousel-caption d-none d-md-block">
                         <h3 className='fw-bold'>Looking for spare electronic parts? View our parts catalogue, we offer competitive and market pricing! </h3>
@@ -65,7 +65,7 @@ const HeroCarousel: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="carousel-item">
+                <div className="carousel-item rounded-2" >
                     <img src={repair} className="d-block w-100 caro-img opacity-50" alt="Repair" />
                     <div className="carousel-caption d-none d-md-block">
                         <h3 className='fw-bold'>Looking for DIY Repair guides? We believe in the right to repair! View our free repair guides for various devices</h3>
