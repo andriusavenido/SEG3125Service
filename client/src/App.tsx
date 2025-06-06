@@ -4,6 +4,9 @@ import Home from './pages/Home'
 import Catalogue from './pages/Catalogue';
 import Cart from './pages/Cart';
 import Booking from './pages/Booking';
+import Services from './pages/Services';
+import Guides from './pages/Guides';
+import About from './pages/About';
 
 function App() {
   return (<>
@@ -30,14 +33,13 @@ function App() {
     <div className="pages mt-5 bg-dark p-4 min-vh-100 text-light">
       <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/information" element={<div>About Page</div>} />
-      <Route path="/contact" element={<div>Contact Page</div>} />
-      <Route path="/services" element={<div>Services Page</div>} />
+      <Route path="/information" element={<About/>} />
+      <Route path="/services" element={<Services></Services>} />
       <Route path="/cart" element={<Cart/>} />
       <Route path="/catalogue" element={<Catalogue/>} />
-      <Route path="/guides" element={<div> guides</div>} />
+      <Route path="/guides" element={<Guides/>} />
       <Route path="/book" element={<Booking/>} />
-      <Route path="*" element={<div>404 Not Found. Reload Page.</div>} />
+      <Route path="*" element={<div className='container-fluid mt-5 fw-bold fs-3'>404 Not Found. Reload Page.</div>} />
     </Routes>
     <footer className='mx-auto text-center my-5'> Rideau Repairs Phone & Electronics. Site created by Andrius Avenido. </footer>
     </div>
