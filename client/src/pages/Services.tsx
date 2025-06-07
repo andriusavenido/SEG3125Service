@@ -1,4 +1,3 @@
-import { Link } from 'react-router';
 import iphoneimg from '../assets/iphone.png';
 import laptopimg from '../assets/laptoprepair.png';
 import macimg from '../assets/imac.png';
